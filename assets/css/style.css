@@ -176,7 +176,7 @@ p {
 }
 
 p b {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 a {
@@ -197,7 +197,6 @@ a.button {
 
 section#paypal {
   min-height: 100vh;
-  min-width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -217,13 +216,9 @@ section#paypal .container footer {
 section#limited {
   background: -webkit-gradient(linear, left top, right top, from(#478CBE), to(#59E4DA));
   background: linear-gradient(90deg, #478CBE, #59E4DA);
-  position: fixed;
   width: 100%;
   padding: 0.8rem 1.8rem;
   text-align: center;
-  top: 0;
-  right: 0;
-  left: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -237,8 +232,8 @@ section#limited p {
 }
 
 section#product {
-  min-height: 100vh;
-  min-width: 100vw;
+  margin: 2rem 0;
+  min-height: 80vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -265,9 +260,6 @@ section#product .container {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-  section#product .container section.image {
-    margin-top: 6rem;
   }
   section#product .container section.text {
     margin-left: 0 !important;
